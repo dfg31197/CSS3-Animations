@@ -1,0 +1,32 @@
+html,body{
+  height: 100%;
+  width: 100%;
+}
+
+.eee{
+  width: 10%;
+}
+#universe{
+  background: radial-gradient(#555,#000);
+}
+.stars{
+  background: url("http://www.clker.com/cliparts/Y/T/K/w/3/I/stars-md.png");
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 2;
+}
+
+.sun{
+  position: absolute;
+  z-index: 4;
+  top: 50%;
+  left: 50%;
+  margin-top: -150px;
+  margin-left: -150px;
+  box-shadow: 0px 0px 200px 20px #f5c91a;
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  background: radial-gradient(#f5c313,#ec7e08);
+}
